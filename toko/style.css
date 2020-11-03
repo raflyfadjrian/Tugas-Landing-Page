@@ -1,6 +1,9 @@
-body {margin: 0; font-family: sans-serif;}
+body {margin: 0; font-family: sans-serif; background-image: black}
+body{background-image:url(qw.jpg); background-size:1000px}
 
-.header {margin: 20px; color: white; background: black; height: 70px;}
+.deks{border: 1px solid black; margin:120px; text-align: center; color: black ; border-width: 6px; background-color: orange ;text-align: left;}
+
+.header {margin: 20px; color: white; background: black; height: 65px;}
 
 .logo {float: left;}
 
@@ -16,14 +19,16 @@ body {margin: 0; font-family: sans-serif;}
 
 .gambar {width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr; margin:auto;}
 
-.gambar .foto img{width: 300px;}
+.gambar .foto img{width: 230px;}
 
-.foto {border: 1px solid black; margin:10px; text-align: center; }
+.foto {border: 1px solid black; margin:20px; text-align: center; color: black ; border-width: 3px; background-color: orange}
 
-.foto a{border: 1px solid brown; padding:10px; color: white; background: brown; text-decoration: none; border-radius: 20px; cursor: pointer;}
+.foto a{border: 1px solid white; padding:10px; color: white; background: brown; text-decoration: none; border-radius: 10px; cursor: pointer;}
 
 .footer {text-align: center; margin: 20px; color: white; background: black; height: 100px;}
 
 .footer p{padding-top:25px;}
 
 .footer a{text-decoration: none; color: white; }
+ 
+ .search {color: white border-width: 10px;border-collapse: unset;}
